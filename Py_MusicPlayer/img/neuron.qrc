@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="neuron_music/img">
+    <file>user.png</file>
+    <file>support.png</file>
+    <file>dolar.png</file>
+    <file>regresar.png</file>
+    <file>volumen.png</file>
+    <file>splash.png</file>
+    <file>play.png</file>
+    <file>pausa.png</file>
+    <file>next.png</file>
+    <file>neuron.ico</file>
+    <file>logo_neuron.png</file>
+    <file>line_password.png</file>
+    <file>line_email.png</file>
+    <file>inicio.png</file>
+    <file>icon.ico</file>
+    <file>fondo_login.png</file>
+    <file>configuracion.png</file>
+    <file>back.png</file>
+  </qresource>
+</RCC>
