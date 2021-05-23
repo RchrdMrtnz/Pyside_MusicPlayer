@@ -16,8 +16,14 @@
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>440</width>
+    <height>460</height>
+   </size>
+  </property>
   <property name="cursor">
-   <cursorShape>PointingHandCursor</cursorShape>
+   <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -201,7 +207,10 @@ color:qlineargradient(spread:reflect, x1:0.00921659, y1:1, x2:0.88, y2:0.148182,
 color:rgb(238, 238, 238);
 
 }
+#files{
+	image: url(:/neuron_music/img/outline_menu_white_48dp.png);
 
+}
 
 
 
@@ -418,6 +427,19 @@ color:rgb(238, 238, 238);
      <bool>false</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="files">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>380</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>play_button</zorder>
    <zorder>next_button</zorder>
    <zorder>back_button</zorder>
@@ -431,6 +453,7 @@ color:rgb(238, 238, 238);
    <zorder>v_hint</zorder>
    <zorder>nombre_cancion</zorder>
    <zorder>cover</zorder>
+   <zorder>files</zorder>
   </widget>
  </widget>
  <resources>
