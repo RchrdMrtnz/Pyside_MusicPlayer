@@ -16,7 +16,7 @@ def hhmmss(ms):
     h, r = divmod(ms, 360000)
     m, r = divmod(r, 60000)
     s, _ = divmod(r, 1000)
-    return (f"{h}:{m}:{s}" ) if h else(f"{h}:{m}")
+    return (f"{h}:{m}:{s}" ) if h else(f"{m}:{s}")
 
 class myplayer(QtWidgets.QMainWindow):
     def __init__(self):
